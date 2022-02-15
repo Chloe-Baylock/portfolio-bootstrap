@@ -138,101 +138,101 @@ html(lang='en')
                     .col-lg-4.me-auto
                         p.lead
                             | I love problem solving, my favorite games are Chess, Tetris, and Go. In my free time I go on walks and connect with people online. But mostly, I code.
-        // Contact Section
-        section#contact.page-section
-            .container
-                // Contact Section Heading
-                h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Contact Me
-                // Icon Divider
-                .divider-custom
-                    .divider-custom-line
-                    .divider-custom-icon
-                        i.fas.fa-star
-                    .divider-custom-line
-                // Contact Section Form
-                .row.justify-content-center
-                    .col-lg-8.col-xl-7
+        //- // Contact Section
+        //- section#contact.page-section
+        //-     .container
+        //-         // Contact Section Heading
+        //-         h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Contact Me
+        //-         // Icon Divider
+        //-         .divider-custom
+        //-             .divider-custom-line
+        //-             .divider-custom-icon
+        //-                 i.fas.fa-star
+        //-             .divider-custom-line
+        //-         // Contact Section Form
+        //-         .row.justify-content-center
+        //-             .col-lg-8.col-xl-7
 
-                        // * * * * * * * * * * * * * * *
-                        // * * SB Forms Contact Form * *
-                        // * * * * * * * * * * * * * * *
+        //-                 // * * * * * * * * * * * * * * *
+        //-                 // * * SB Forms Contact Form * *
+        //-                 // * * * * * * * * * * * * * * *
 
-                        // This form is pre-integrated with SB Forms.
-                        // To make this form functional, sign up at
-                        // https://startbootstrap.com/solution/contact-forms
-                        // to get an API token!
+        //-                 // This form is pre-integrated with SB Forms.
+        //-                 // To make this form functional, sign up at
+        //-                 // https://startbootstrap.com/solution/contact-forms
+        //-                 // to get an API token!
 
-                        form#contactForm(data-sb-form-api-token='API_TOKEN')
+        //-                 form#contactForm(data-sb-form-api-token='API_TOKEN')
 
-                            // Name input
-                            .form-floating.mb-3
-                                input#name.form-control(
-                                    type='text',
-                                    placeholder='Enter your name...',
-                                    data-sb-validations='required'
-                                )
-                                label(for='name') Full name
-                                .invalid-feedback(data-sb-feedback='name:required')
-                                    | A name is required.
+        //-                     // Name input
+        //-                     .form-floating.mb-3
+        //-                         input#name.form-control(
+        //-                             type='text',
+        //-                             placeholder='Enter your name...',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         label(for='name') Full name
+        //-                         .invalid-feedback(data-sb-feedback='name:required')
+        //-                             | A name is required.
 
-                            // Email address input
-                            .form-floating.mb-3
-                                input#email.form-control(
-                                    type='email',
-                                    placeholder='name@example.com',
-                                    data-sb-validations='required,email'
-                                )
-                                label(for='email') Email address
-                                .invalid-feedback(data-sb-feedback='email:required')
-                                    | An email is required.
-                                .invalid-feedback(data-sb-feedback='email:email')
-                                    | Email is not valid.
+        //-                     // Email address input
+        //-                     .form-floating.mb-3
+        //-                         input#email.form-control(
+        //-                             type='email',
+        //-                             placeholder='name@example.com',
+        //-                             data-sb-validations='required,email'
+        //-                         )
+        //-                         label(for='email') Email address
+        //-                         .invalid-feedback(data-sb-feedback='email:required')
+        //-                             | An email is required.
+        //-                         .invalid-feedback(data-sb-feedback='email:email')
+        //-                             | Email is not valid.
 
-                            // Phone number input
-                            .form-floating.mb-3
-                                input#phone.form-control(
-                                    type='tel',
-                                    placeholder='(123) 456-7890',
-                                    data-sb-validations='required'
-                                )
-                                label(for='phone') Phone number
-                                .invalid-feedback(data-sb-feedback='phone:required')
-                                    | A phone number is required.
+        //-                     // Phone number input
+        //-                     .form-floating.mb-3
+        //-                         input#phone.form-control(
+        //-                             type='tel',
+        //-                             placeholder='(123) 456-7890',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         label(for='phone') Phone number
+        //-                         .invalid-feedback(data-sb-feedback='phone:required')
+        //-                             | A phone number is required.
 
-                            // Message input
-                            .form-floating.mb-3
-                                textarea#message.form-control(
-                                    type='text',
-                                    placeholder='Enter your message here...',
-                                    style='height: 10rem;',
-                                    data-sb-validations='required'
-                                )
-                                label(for='message') Message
-                                .invalid-feedback(data-sb-feedback='message:required')
-                                    | A message is required.
+        //-                     // Message input
+        //-                     .form-floating.mb-3
+        //-                         textarea#message.form-control(
+        //-                             type='text',
+        //-                             placeholder='Enter your message here...',
+        //-                             style='height: 10rem;',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         label(for='message') Message
+        //-                         .invalid-feedback(data-sb-feedback='message:required')
+        //-                             | A message is required.
 
-                            // Submit success message
-                            //
-                            // This is what your users will see when the form
-                            // has successfully submitted
+        //-                     // Submit success message
+        //-                     //
+        //-                     // This is what your users will see when the form
+        //-                     // has successfully submitted
 
-                            #submitSuccessMessage.d-none
-                                .text-center.mb-3
-                                    .fw-bolder Form submission successful!
-                                    | To activate this form, sign up at
-                                    br
-                                    a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
+        //-                     #submitSuccessMessage.d-none
+        //-                         .text-center.mb-3
+        //-                             .fw-bolder Form submission successful!
+        //-                             | To activate this form, sign up at
+        //-                             br
+        //-                             a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
 
-                            // Submit error message
-                            //
-                            // This is what your users will see when there is
-                            // an error submitting the form
+        //-                     // Submit error message
+        //-                     //
+        //-                     // This is what your users will see when there is
+        //-                     // an error submitting the form
 
-                            #submitErrorMessage.d-none
-                                .text-center.text-danger.mb-3 Error sending message!
+        //-                     #submitErrorMessage.d-none
+        //-                         .text-center.text-danger.mb-3 Error sending message!
 
-                            // Submit Button
-                            button#submitButton.btn.btn-primary.btn-xl.disabled(type='submit') Send
+        //-                     // Submit Button
+        //-                     button#submitButton.btn.btn-primary.btn-xl.disabled(type='submit') Send
 
         // Footer
         footer.footer.text-center
@@ -254,11 +254,9 @@ html(lang='en')
                             i.fab.fa-fw.fa-angellist
                     // Footer About Text
                     .col-lg-4
-                        h4.text-uppercase.mb-4 About Freelancer
+                        h4.text-uppercase.mb-4 Contact Me
                         p.lead.mb-0
-                            | Freelance is a free to use, MIT licensed Bootstrap theme created by 
-                            a(href='http://startbootstrap.com') Start Bootstrap
-                            | .
+                            a(href='http://mailto:chloebox523@gmail.com') chloebox523@gmail.com
 
         // Copyright Section
         div.copyright.py-4.text-center.text-white
