@@ -1,1 +1,2 @@
-Hello I'm Chloe.
+Hello, I'm Chloe.
+
